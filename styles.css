@@ -1,0 +1,148 @@
+/* @font-face {
+    font-family: 'Tesla-font';
+    src: url('fonts/helvetica-neue-5/HelveticaNeueBlack.otf');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+
+:root{
+    --tesla-font : Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section{
+    width: 100%;
+    height: 100vh;
+    background-image:url('/images/Homepage-Model-3-Desktop-LHD-v2.jpg');
+    background-size: cover;
+}
+.first-section-nav{
+    display: flex;
+    height: 10%;
+    background-color: transparent;
+} 
+
+.tesla-logo{
+    height: 9.7rem;
+    width: 9.7rem;
+    margin-left: 6px;
+    padding: 1.9rem;
+}
+.menu-button {
+    background-color: #b5cfdd;
+    margin-left: auto;
+    height: 2rem;
+    width: 4.5rem;
+    text-align: center;
+    line-height: 1.9;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    font-family: var(--tesla-font);
+    font-weight: bold;
+}
+.menu-button:hover {
+    cursor: pointer;
+    background-color: #afd4e7;
+    
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: var(--tesla-font);
+    color: #171a20;
+    padding-top: 5rem;
+    
+
+}
+
+
+.second-line{
+    font-family: var(--tesla-font);
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.third-line {
+    font-size: 1rem;
+    font-weight: 100;
+    color: #393c41;
+}
+.first-button {
+    width: 15rem;
+    height: 2rem;
+    font-weight: bold;
+    color: #393c41;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+
+}
+.second-button {
+    width: 15rem;
+    height: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    cursor: pointer;
+    margin-left: 2rem;
+
+}
+.second-button:hover {
+    background-color: rgb(29, 27, 27)
+
+}
+
+
+.second-section, .third-section, .fourth-section, .fifth-section, .sixth-section, .seventh-section, .eighth-section, .ninth-section{              
+    width: 100%;
+    height: 100vh;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cybertruck-img {
+    width: 40%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 50vh;
+
+}
+
+
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+    
+}
+
+a {
+    color: white;
+}
